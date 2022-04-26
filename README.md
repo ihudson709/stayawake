@@ -3,7 +3,7 @@
 Keep MS Windows Active. Prevent Screensaver from activating. Prevent Monitor from going to sleep. There are no settings for timing. It will simply keep your system awake until it is disabled or the system is rebooted and your Group Policy is reenabled at startup.
 
 StayAwake - v2.0
-See readme.txt for more details, see EULA.txt for legal info.
+See see EULA.txt for legal info.
 Icons made by www.freepik.com from www.flaticon.com.
 Developed by Ian Hudson (C)2022 All Rights Reserved.
 
