@@ -15,6 +15,8 @@ The only output will be a log file stayawake.log that will show credits and whet
 ## Usage
 
 run stayawake.exe
+To disable the app, click these key at the same time:
+ctrl+alt+x
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
