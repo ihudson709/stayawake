@@ -24,12 +24,13 @@ pyautogui.FAILSAFE = False
 
 def exitproc():
 	ctypes.windll.kernel32.SetThreadExecutionState(0x80000000)
+	ctypes.windll.user32.ShowWindow( ctypes.windll.kernel32.GetConsoleWindow(), 1 )
 	logger.debug('StayAwake has been deactivated.')
 	os._exit(0)
 
 # Create hotkey and it's funtion for exit processes 
 keyboard.add_hotkey("ctrl+alt+x", lambda: exitproc()) # Disable the app by pressing: cntrl+alt+x
-
+ctypes.windll.user32.ShowWindow( ctypes.windll.kernel32.GetConsoleWindow(), 0 )
 logger.debug('StayAwake is active.')
 
 while(True):
